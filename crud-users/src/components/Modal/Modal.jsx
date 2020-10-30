@@ -28,7 +28,7 @@ const FormDialog = ({
   userSelected,
 }) => {
   return (
-    <div>
+    <form>
       <Dialog open={openModal} onClose={onCancel} aria-labelledby="form-dialog-title">
         <DialogTitle id="form-dialog-title">{title}</DialogTitle>
         <DialogContent>
@@ -89,7 +89,7 @@ const FormDialog = ({
           </Button>
         </DialogActions>
       </Dialog>
-    </div>
+    </form>
   );
 }
 

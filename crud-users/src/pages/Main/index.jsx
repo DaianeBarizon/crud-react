@@ -91,8 +91,6 @@ const Main = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  console.log(searchResults, 'lista');
-
   //deletar
   const handleRemove = async (item) => {
     await api.delete(`/usuarios/${item.id}`);

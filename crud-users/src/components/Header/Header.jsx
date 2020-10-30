@@ -1,9 +1,19 @@
 import React from 'react';
 import { Container, Content, Profile, Name, Title } from './styles';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import history from '../../helpers/history';
 import Button from '@material-ui/core/Button';
+import { useAuth } from '../../hook/AuthContext';
 
-export default function Header({title}) {
+const Header = ({title}) => {
+  const { user, signOut } = useAuth();
+
+  async function handleSignOut() {
+    await signOut();
+    history.push('/');
+    document.location.reload(true);
+  }
+
   return (
     <Container>
       <Content>
@@ -15,10 +25,11 @@ export default function Header({title}) {
             />
             <div>
               <Name>
-                <p>Daiane Barizon</p>
+                <p>{user?.name}</p>
+                <p>{user?.email}</p>
                 <p>Administrador</p>
               </Name>
-              <Button variant="contained" color="primary" disableElevation onClick={() => false}>
+              <Button variant="contained" color="primary" disableElevation onClick={handleSignOut}>
                 sair
               </Button>
             </div>
@@ -27,3 +38,5 @@ export default function Header({title}) {
     </Container>
   );
 }
+
+export default Header;
