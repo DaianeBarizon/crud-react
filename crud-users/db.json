@@ -1,0 +1,67 @@
+{
+  "usuarios": [
+    {
+      "nome": "Edson",
+      "sobrenome": "Custen",
+      "tipoUsuario": "Administrador",
+      "email": "edson10@gmail.com",
+      "senha": "14789",
+      "ativo": false,
+      "id": 13
+    },
+    {
+      "nome": "Felipe",
+      "sobrenome": "Conrado",
+      "tipoUsuario": "Usuário Padrão",
+      "email": "poi43@gmail.com",
+      "senha": "tre89",
+      "ativo": true,
+      "id": 22
+    },
+    {
+      "nome": "Diana",
+      "sobrenome": "Barbosa",
+      "tipoUsuario": "Usuário Padrão",
+      "email": "diana3@gmail.com",
+      "senha": "dadada",
+      "ativo": true,
+      "id": 25
+    },
+    {
+      "nome": "Fernanda",
+      "sobrenome": "Luiza",
+      "tipoUsuario": "Administrador",
+      "email": "fernandaluiza@gmail.com",
+      "senha": "147812",
+      "ativo": false,
+      "id": 27
+    },
+    {
+      "nome": "Deise",
+      "sobrenome": "Barbosa",
+      "tipoUsuario": "Usuário Padrão",
+      "email": "deise4@gmail.com",
+      "senha": "14789",
+      "ativo": false,
+      "id": 30
+    },
+    {
+      "nome": "Douglas",
+      "sobrenome": "Souza",
+      "tipoUsuario": "Usuário Padrão",
+      "email": "douglas8@gmail.com",
+      "senha": "2589",
+      "ativo": true,
+      "id": 31
+    },
+    {
+      "nome": "Ruana",
+      "sobrenome": "Silva",
+      "tipoUsuario": "Usuário Padrão",
+      "email": "ruanasilva@gmail.com",
+      "senha": "125874",
+      "ativo": true,
+      "id": 32
+    }
+  ]
+}
