@@ -20,11 +20,11 @@ Tecnologias:
 ## Telas
 
 <p align="center">
-    <img alt="form" title="form" src="image/form.jpg">
-    <img alt="insomnia" title="insomnia" src="image/backend.jpg">
-    <img alt="localstorage" title="localstorage" src="image/localstorage.jpg">
-    <img alt="search" title="search" src="image/search.jpg">
-    <img alt="cadastrar" title="cadastrar" src="image/cadastrar.jpg">
-    <img alt="editar" title="editar" src="image/editar.jpg">
-    <img alt="lista" title="lista" src="image/lista.jpg">
+    <img alt="form" title="form" src="image/form.JPG">
+    <img alt="insomnia" title="insomnia" src="image/backend.JPG">
+    <img alt="localstorage" title="localstorage" src="image/localstorage.JPG">
+    <img alt="search" title="search" src="image/search.JPG">
+    <img alt="cadastrar" title="cadastrar" src="image/cadastrar.JPG">
+    <img alt="editar" title="editar" src="image/editar.JPG">
+    <img alt="lista" title="lista" src="image/lista.JPG">
 </p>
